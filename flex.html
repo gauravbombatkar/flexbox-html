@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            /* width: 100%; */
+            flex-basis: 30%;
+            margin-top: 3rem;
+            /* background-color: cyan; */
+            /* display: flex;
+            justify-content: space-evenly; */
+        }
+
+        section div{
+            width: 30%;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .flexone{
+background-color: brown;
+        }
+        .flextwo{
+background-color: cadetblue;
+        }
+        .flexthree{
+            border-color: coral;
+        }
+        @media(min-width: 768px){
+           section{
+            display: flex;
+            justify-content: space-evenly;
+           }
+        }
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="flexone">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maxime ex quidem laudantium vero at
+            expedita esse dolores? Explicabo aspernatur facilis tenetur minima exercitationem iusto possimus numquam,
+            soluta aperiam totam.
+
+        </div>
+        <div class="flextwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maxime ex quidem laudantium vero at
+            expedita esse dolores? Explicabo aspernatur facilis tenetur minima exercitationem iusto possimus numquam,
+            soluta aperiam totam.
+
+        </div>
+        <div class="flexthree">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maxime ex quidem laudantium vero at
+            expedita esse dolores? Explicabo aspernatur facilis tenetur minima exercitationem iusto possimus numquam,
+            soluta aperiam totam.
+
+        </div>
+    </section>
+</body>
+
+</html>
